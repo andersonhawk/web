@@ -1,0 +1,18 @@
+## install nginx build dependencies ##
+## gcc build tools in centos/debian
+	$ yum install gcc
+	$ yum groupinstall "Development Tools"
+	$ aptitude install gcc
+	$ aptitude install build-essential
+
+## pcre: perl compatible regular express
+	$ yum install pcre pcre-devel
+	$ aptitude install libpcre3 libpcre3-dev
+
+## zlib
+	$ yum install zlib zlib-devel
+	$ aptitude install zlib1g zlib1-dev
+
+## openssl
+	$ yum install openssl openssl-devel
+	$ aptitude install openssl libssl-dev
