@@ -16,3 +16,12 @@
 ## openssl
 	$ yum install openssl openssl-devel
 	$ aptitude install openssl libssl-dev
+
+## nginx command options
+	$ nginx -s stop    # send TERM signal
+	$ nginx -s quit    # send QUIT signal
+	$ nginx -s reopen  # reopen config file
+	$ nginx -s reload  # reload config file
+
+	$ nginx -t         # check config file
+	$ nginx -V         # check build options
